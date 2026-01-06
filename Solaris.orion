@@ -13,13 +13,13 @@ local OrionLib = {
 	Flags = {},
 	Themes = {
 		Default = {
-			Main = Color3.fromRGB(25, 25, 25),
-			Second = Color3.fromRGB(32, 32, 32),
-			Stroke = Color3.fromRGB(60, 60, 60),
-			Divider = Color3.fromRGB(60, 60, 60),
-			Text = Color3.fromRGB(240, 240, 240),
-			TextDark = Color3.fromRGB(150, 150, 150)
-		}
+	Main = Color3.fromRGB(14, 14, 18),        -- 宇宙ブラック
+	Second = Color3.fromRGB(22, 22, 30),      -- 星雲ダーク
+	Stroke = Color3.fromRGB(255, 170, 60),    -- ソラリスゴールド（縁）
+	Divider = Color3.fromRGB(255, 140, 40),   -- 太陽コア
+	Text = Color3.fromRGB(255, 240, 210),     -- 神々しい白金
+	TextDark = Color3.fromRGB(190, 160, 110)  -- 落ち着いたゴールド
+}
 	},
 	SelectedTheme = "Default",
 	Folder = nil,
